@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root{
+    --primary-color: #b8b1a3;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 1px;
+    text-align: center;
+    
+
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+    
+
+    
+    /* background: url('images/background1.jpg'); */
+}
+
+.heading {
+
+    height: 2rem;
+    width:auto;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    margin:inherit;
+}
+
+
+textarea {
+    font-family: inherit;
+    width: 50%;
+    display: block;
+    padding: 2rem;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem; */
+    margin:  1rem auto 1rem auto;
+    border-radius: 0rem;
+    background: transparent;
+    
+}
+
+button {
+    font-family: inherit;
+    display: block;
+    border-radius: 0rem;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin:  2rem auto 1rem auto;
+    font-size: 1rem;
+}
+
+#output {
+    width: 50%;
+    height: 2rem;
+    display: block;
+    padding: 2rem;
+    border: 1px solid black;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem; */
+    margin:  1rem auto 1rem auto;
+    border-radius: 0rem;
+}
+
+
+#space{
+    height: 3rem;
+}
+
+footer{
+    position:fixed;
+    bottom: 3px;
+    width: 100%;
+    display: block;
+    height: 1rem;
+    background-color: var(--primary-color);
+    text-align: match-parent;
+    padding: 2rem;
+    margin:inherit;
+}
